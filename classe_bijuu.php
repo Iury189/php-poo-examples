@@ -1,4 +1,3 @@
-// Simples código que declara uma classe com atributos e métodos (utiliza construct)
 <?php
 
 	class Bijuu {
