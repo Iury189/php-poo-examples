@@ -3,19 +3,19 @@
 	class Sistema implements iCrud {
 
 		public function Create(){
-			echo "Criar. <br>";
+			echo 'Criar. <br>';
 		}
 
 		public function Read(){
-			echo "Listar. <br>";
+			echo 'Listar. <br>';
 		}
 
 		public function Update(){
-			echo "Atualizar. <br>";
+			echo 'Atualizar. <br>';
 		}
 
 		public function Delete(){
-			echo "Excluir. <br>";
+			echo 'Excluir. <br>';
 		}
 	}
 	
