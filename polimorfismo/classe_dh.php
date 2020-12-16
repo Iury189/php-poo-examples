@@ -27,7 +27,7 @@
 		}
 
 		public function Falar(){
-			echo 'I am Devil Hunter. <br>';
+			echo 'I am a Devil Hunter. <br>';
 		}
 
 	}
