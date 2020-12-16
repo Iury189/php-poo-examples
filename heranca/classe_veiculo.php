@@ -13,11 +13,11 @@
 		}
 
 		public function Andar(){
-			echo "Em movimento. <br>";
+			echo 'Em movimento. <br>';
 		}
 
 		public function Parar(){
-			echo "Parado. <br>";
+			echo 'Parado. <br>';
 		}
 	}
 	
