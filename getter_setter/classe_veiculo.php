@@ -37,11 +37,11 @@
 		}
 
 		public function Caracteristicas(){
-			echo "Carro {$this->getModelo()} de cor {$this->getCor()} ano de lançamento {$this->getAno()}.<br>";
+			echo 'Carro {$this->getModelo()} de cor {$this->getCor()} ano de lançamento {$this->getAno()}. <br>';
 		}
 
 		public function Estepe(){
-			echo "Esse carro tem pneu de estepe. <br>";
+			echo 'Esse carro tem pneu de estepe. <br>';
 		}
 	}
 	
