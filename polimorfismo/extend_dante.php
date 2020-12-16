@@ -7,11 +7,11 @@
 		}
 
 		private function Armory(){
-			echo 'My sword is {$this->getSword()} and my weapons are {$this->getGun()}. <br>';
+			echo "My sword is {$this->getSword()} and my weapons are {$this->getGun()}. <br>";
 		}
 
 		protected function Legacy(){
-			echo 'My Legacy. <br>';
+			echo "My Legacy. <br>";
 		}
 
 		public function View(){
