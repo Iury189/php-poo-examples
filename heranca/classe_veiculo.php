@@ -2,9 +2,7 @@
 	
 	class Veiculo {
 
-		public $modelo;
-		public $cor;
-		public $ano;
+		public $modelo, $cor, $ano;
 
 		public function __construct($modelo,$cor,$ano){
 			$this->modelo = $modelo;
@@ -20,5 +18,5 @@
 			echo "Parado. <br>";
 		}
 	}
-	
+
 ?>
