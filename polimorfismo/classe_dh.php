@@ -2,8 +2,7 @@
 	
 	class DevilHunter {
 
-		private $sword;
-		private $gun;
+		private $sword, $gun;
 
 		public function getSword(){
 			return $this->sword;
