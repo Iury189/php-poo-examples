@@ -2,9 +2,7 @@
 
 	class Bijuu {
 		
-		public $raca;
-		public $tipo;
-		public $cor;
+		public $raca, $tipo, $cor;
 
 		public function __construct($raca,$tipo,$cor){
 			$this->raca = $raca;
