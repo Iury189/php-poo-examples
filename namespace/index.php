@@ -9,12 +9,11 @@
 	use controller\Aluno as AlunoController;
 
 	$aluno1 = new AlunoModel();
-	$aluno1->Imprimir();
-
 	$aluno2 = new AlunoView();
-	$aluno2->Imprimir();
-
 	$aluno3 = new AlunoController();
+
+	$aluno1->Imprimir();	
+	$aluno2->Imprimir();
 	$aluno3->Imprimir();
 
 ?>
