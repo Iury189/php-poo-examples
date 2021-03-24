@@ -2,9 +2,7 @@
 	
 	abstract class Veiculo {
 
-		private $modelo;
-		private $cor;
-		private $ano;
+		private $modelo, $cor, $ano;
 
 		public function getModelo(){
 			return $this->modelo;
