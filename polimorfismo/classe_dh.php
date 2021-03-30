@@ -1,6 +1,6 @@
 <?php
 	
-	class DevilHunter {
+	abstratc class DevilHunter {
 
 		private $sword, $gun;
 
@@ -25,9 +25,7 @@
 			$this->setGun($gun);
 		}
 
-		public function Falar(){
-			echo "I'm a Devil Hunter. <br>";
-		}
+		abstratc function Falar();
 
 	}
 
