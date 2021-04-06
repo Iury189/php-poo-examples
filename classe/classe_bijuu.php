@@ -11,7 +11,7 @@
 		}
 		
 		public function Caracteristicas(){
-			echo "A bijuu é {$this->raca} de {$this->tipo} de cor {$this->cor}.<br>";
+			echo "A bijuu é {$this->raca} do tipo {$this->tipo} de cor {$this->cor}.<br>";
 		}
 
 	}
