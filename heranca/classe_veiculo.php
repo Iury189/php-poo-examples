@@ -10,13 +10,9 @@
 			$this->ano = $ano;
 		}
 
-		public function Andar(){
-			echo "Em movimento. <br>";
-		}
+		public function Andar() { echo "Em movimento. <br>"; }
 
-		public function Parar(){
-			echo "Parado. <br>";
-		}
+		public function Parar() { echo "Parado. <br>"; }
 	}
 
 ?>

@@ -2,9 +2,7 @@
 	
 	class Carro extends Veiculo {
 		
-		public function Parabrisa(){
-			echo "Parabrisa do poçante funcionando. <br>";
-		}
+		public function Parabrisa() { echo "Parabrisa do poçante funcionando. <br>"; }
 
 	}
 
