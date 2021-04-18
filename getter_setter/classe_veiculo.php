@@ -18,7 +18,9 @@
 
 		public function __construct($modelo,$cor,$ano) { $this->setModelo($modelo); $this->setCor($cor); $this->setAno($ano); }
 
-		public function Caracteristicas() { echo "Carro: {$this->getModelo()}, Cor: {$this->getCor()}, Ano de fabricação: {$this->getAno()}.<br>"; }
+		public function Caracteristicas(){
+			echo "Carro {$this->getModelo()} de cor {$this->getCor()} ano de lançamento {$this->getAno()}.<br>"; 
+		}
 
 		public function Estepe() { echo "Esse carro tem pneu de estepe. <br>"; }
 	}
