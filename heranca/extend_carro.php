@@ -2,13 +2,10 @@
 	
 	class Carro extends Veiculo {
 		
-		private function Parabrisa(){
+		public function Parabrisa(){
 			echo "Parabrisa do poçante funcionando. <br>";
 		}
 
-		public function ViewParabrisa(){
-			$this->Parabrisa();
-		}
 	}
 
 ?>
