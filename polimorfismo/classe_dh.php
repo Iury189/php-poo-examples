@@ -1,6 +1,6 @@
 <?php
 	
-	abstratc class DevilHunter {
+	abstract class DevilHunter {
 
 		private $sword, $gun;
 
@@ -12,12 +12,9 @@
 
 		public function setGun($gun) { $this->gun = $gun; }
 
-		public function __construct($sword,$gun){
-			$this->setSword($sword);
-			$this->setGun($gun);
-		}
+		public function __construct($sword,$gun) { $this->setSword($sword); $this->setGun($gun); }
 
-		abstratc function Falar();
+		abstract function Falar();
 
 	}
 
