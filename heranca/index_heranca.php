@@ -7,13 +7,13 @@
 	$carro = new Carro("BMW","Vermelha","2020");
 	$carro->Andar();
 	$carro->Parar();
-	$carro->ViewParabrisa();
+	$carro->Parabrisa();
 
 	echo"<br>";
 
 	$moto = new Moto("Harley","Vermelha","2019");
 	$moto->Andar();
 	$moto->Parar();
-	$moto->ViewDarGrau();
+	$moto->DarGrau();
 
 ?>
