@@ -4,12 +4,20 @@
 
 	$bijuu = array();
 
-	$bijuu[0] = new Bijuu("Raposa","Nove caudas","Amarela");
+	$raca = "Raposa";
+	$tipo = "Nove caudas";
+	$cor = "Amarela";
+
+	$bijuu[0] = new Bijuu($raca,$tipo,$cor);
 	$bijuu[0]->Caracteristicas();
 
 	echo "<br>";
 
-	$bijuu[1] = new Bijuu("Gato","Duas caudas","Azul");
+	$raca = "Gato";
+	$tipo = "Duas caudas";
+	$cor = "Azul";
+
+	$bijuu[1] = new Bijuu($raca,$tipo,$cor);
 	$bijuu[1]->Caracteristicas();
 
 ?>
